@@ -38,9 +38,9 @@ im Media Plan CI erstellen.
    - Kein externer API-Call, keine CDN-Abhängigkeit für Daten
 
 4. **HTML generieren**
-   - Lies `references/html-template.md` — verwende das Grundgerüst 1:1
+   - Lies `html-template.md` — verwende das Grundgerüst 1:1
    - Ersetze Platzhalter: Titel, JSON-Daten, Chart-Konfiguration, Texte
-   - Logo aus `assets/logo_b64.txt` direkt als Base64 einbetten
+   - Logo aus `logo_b64.txt` direkt als Base64 einbetten
    - Chart.js (cdn.jsdelivr.net) für alle Diagramme
    - Alle Daten inline — kein Server, keine externen Dateien nötig
 
