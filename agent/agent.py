@@ -204,6 +204,6 @@ class Agent:
 
     def __repr__(self) -> str:
         return (
-            f"Agent(name={self.name!r}, tools={list(self.registry._tools)}, "
+            f"Agent(name={self.name!r}, tools={self.registry.tool_names()}, "
             f"max_iterations={self.max_iterations})"
         )

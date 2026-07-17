@@ -110,6 +110,10 @@ class ToolRegistry:
         """Return the JSON-schema-style descriptions of all tools."""
         return [t.schema() for t in self._tools.values()]
 
+    def tool_names(self) -> List[str]:
+        """Return the names of all registered tools."""
+        return list(self._tools)
+
     def __len__(self) -> int:
         return len(self._tools)
 

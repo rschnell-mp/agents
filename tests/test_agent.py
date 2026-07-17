@@ -108,10 +108,13 @@ def test_step_invalid_json_raises_agent_error():
 
 
 def test_step_tool_error_raises_agent_error():
+    def _always_fails():
+        raise RuntimeError("boom")
+
     broken_tool = Tool(
         name="broken",
         description="Always fails",
-        func=lambda: (_ for _ in ()).throw(RuntimeError("boom")),
+        func=_always_fails,
     )
     agent = Agent(tools=[broken_tool])
     with pytest.raises(AgentError, match="boom"):
