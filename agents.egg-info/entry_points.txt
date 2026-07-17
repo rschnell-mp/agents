@@ -1,0 +1,2 @@
+[console_scripts]
+custom-agent = main:main
