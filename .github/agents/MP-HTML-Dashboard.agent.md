@@ -38,9 +38,9 @@ im Media Plan CI erstellen.
    - Kein externer API-Call, keine CDN-Abhängigkeit für Daten
 
 4. **HTML generieren**
-   - Lies `html-template.md` — verwende das Grundgerüst 1:1
+   - Verwende das HTML-Grundgerüst 1:1 aus der Template-Datei im Agent-Ordner: .github/agents/html-template.md
    - Ersetze Platzhalter: Titel, JSON-Daten, Chart-Konfiguration, Texte
-   - Logo aus `logo_b64.txt` direkt als Base64 einbetten
+   - Verwende das Base64-Logo aus der Logo-Datei im Agent-Ordner: .github/agents/logo_b64.txt
    - Chart.js (cdn.jsdelivr.net) für alle Diagramme
    - Alle Daten inline — kein Server, keine externen Dateien nötig
 
@@ -50,7 +50,7 @@ im Media Plan CI erstellen.
 
 ## CI-Regeln (immer einhalten)
 
-Lies `html-template.md` für alle Farb-, Typografie- und Layout-Details.
+Verwende alle Farb-, Typografie- und Layout-Details aus der Template-Datei im Agent-Ordner: .github/agents/html-template.md
 Kurzzusammenfassung:
 - Hintergrund: `#EEF1F5`, Karten: `#FFFFFF`, Header: `#13355A`
 - Primärfarbe: `#13355A` (Navy), Akzent: `#1D666F` (Teal)
