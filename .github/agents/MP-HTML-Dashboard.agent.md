@@ -50,7 +50,7 @@ im Media Plan CI erstellen.
 
 ## CI-Regeln (immer einhalten)
 
-Lies `references/ci.md` für alle Farb-, Typografie- und Layout-Details.
+Lies `html-template.md` für alle Farb-, Typografie- und Layout-Details.
 Kurzzusammenfassung:
 - Hintergrund: `#EEF1F5`, Karten: `#FFFFFF`, Header: `#13355A`
 - Primärfarbe: `#13355A` (Navy), Akzent: `#1D666F` (Teal)
