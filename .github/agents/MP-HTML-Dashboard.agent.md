@@ -45,7 +45,7 @@ im Media Plan CI erstellen.
    - Alle Daten inline — kein Server, keine externen Dateien nötig
 
 5. **Ausgabe**
-   - Datei nach `/mnt/data/<titel>.html` speichern
+   - Datei nach `<titel>.html` speichern
    - Kurze Zusammenfassung: Was zeigt das Dashboard, welche Kernaussage?
 
 ## CI-Regeln (immer einhalten)
